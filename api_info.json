@@ -1,0 +1,27 @@
+{
+  "slug": "amentum",
+  "title": "Atmosphere API",
+  "description": "Instantly access empirical models of atmospheric density and  composition that are recommended by the Committee on Space Research (COSPAR) for  satellite drag calculations. <br><br>\nAPI requests must ",
+  "base_url": "",
+  "endpoints": [
+    {
+      "path": "/jb2008",
+      "method": "GET",
+      "operation_id": "app.api.endpoints.JB2008.sample_atmosphere",
+      "summary": "Compute atmospheric density and temperatures\n"
+    },
+    {
+      "path": "/nrlmsise00",
+      "method": "GET",
+      "operation_id": "app.api.endpoints.NRLMSISE00.sample_atmosphere",
+      "summary": "Compute atmospheric composition, density, and temperatures\n"
+    },
+    {
+      "path": "/wam-ipe",
+      "method": "GET",
+      "operation_id": "app.api_wfs.endpoints.WFS.get_values",
+      "summary": "Forecast winds, ion and molecular densities, and temperatures in the atmosphere\n"
+    }
+  ],
+  "spec_url": "https://api.apis.guru/v2/specs/amentum.space/atmosphere/1.1.1/openapi.json"
+}
